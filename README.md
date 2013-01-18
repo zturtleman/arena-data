@@ -1,4 +1,4 @@
 arena-data
 ==========
 
-Quake III Arena replacement data for creating a new game using Spearmint (most likely compatible with ioquake3 as well).
+Quake III Arena / Team Arean replacement data for creating new games using Spearmint.
