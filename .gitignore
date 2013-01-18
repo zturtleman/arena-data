@@ -1,0 +1,5 @@
+vm/*.qvm
+*.so
+*.dll
+*.dynlib
+
