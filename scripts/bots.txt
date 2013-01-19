@@ -1,0 +1,6 @@
+{
+name		Sarge
+model		sarge/default
+aifile	bots/default_c.c
+}
+

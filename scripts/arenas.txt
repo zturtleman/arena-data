@@ -1,0 +1,44 @@
+{
+map			"q1dm1"
+longname	"Place of Two Deaths"
+type		"single ffa tourney team"
+special		"training"
+bots		"sarge"
+}
+
+{
+map			"q1dm2"
+longname	"Claustrophobopolis"
+type		"single ffa tourney team"
+bots		"sarge sarge"
+}
+
+{
+map			"q1dm3"
+longname	"The Abandoned Base"
+type		"single ffa tourney team"
+bots		"sarge sarge sarge"
+}
+
+{
+map			"q1dm4"
+longname	"The Bad Place"
+type		"single ffa tourney team"
+bots		"sarge sarge sarge sarge"
+}
+
+{
+map			"q1dm5"
+longname	"The Cistern"
+type		"single ffa tourney team"
+bots		"sarge sarge sarge sarge sarge"
+}
+
+{
+map			"q1dm6"
+longname	"The Dark Zone"
+type		"single ffa tourney team"
+special		"final"
+bots		"sarge sarge sarge sarge sarge sarge"
+}
+
