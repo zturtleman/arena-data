@@ -2,7 +2,7 @@
 // A sprite is a image in the 3D world that always faces the camera.
 
 // ZTM: Drawn over player's head when in console or chat mode.
-sprites/talkBalloon
+sprites/balloon3
 {
 	nomipmaps
 	entityMergable
