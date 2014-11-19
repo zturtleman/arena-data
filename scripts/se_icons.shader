@@ -1,100 +1,76 @@
-// ZTM: Based on OpenArena -> iconsprites.shader
-// just simple icon shaders needed
+// icon shaders (blend, no mip maps)
 
-// HOLDABLE ICONS
+// Holdable icons
 icons/medkit
 {
 	nomipmaps
-	{
-		map icons/medkit.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/teleporter
 {
 	nopicmip
-	{
-		map icons/teleporter.png
-		blendFunc blend
-	}
-}
-
-icons/regen
-{
-	nopicmip
-	{
-		map icons/regen.png
-		blendFunc blend
-	}
-}
-
-icons/portal
-{
-	nomipmaps
-	{
-		map icons/portal.png
-		blendFunc blend
-	}
-}
-
-// POWERUP ICONS
-icons/defense
-{
-	nomipmaps
-	{
-		map icons/defense.png
-		blendFunc blend
-	}
-}
-icons/strength
-{
-	nomipmaps
-	{
-		map icons/strength.png
-		blendFunc blend
-	}
-}
-icons/speed
-{
-	nomipmaps
-	{
-		map icons/speed.png
-		blendFunc blend
-	}
-}
-icons/invis
-{
-	nomipmaps
-	{
-		map icons/invis.png
-		blendFunc blend
-	}
-}
-icons/flight
-{
-	nomipmaps
-	{
-		map icons/flight.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/invul
 {
 	nomipmaps
-	{
-		map icons/invul.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
-// MEDAL ICONS -- ZTM: Move to se_sprites.shader ?
+icons/portal
+{
+	nomipmaps
+	implicitBlend -
+}
+
+
+// Power up icons
+icons/quad
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/envirosuit
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/haste
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/invis
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/regen
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/flight
+{
+	nomipmaps
+	implicitBlend -
+}
+
+
+// Medal icons / sprites
+// FIXME: why do these use clampmap?
 medal_assist
 {
 	nomipmaps
 	{
-		clampmap menu/medals/medal_assist.png
+		clampmap menu/medals/medal_assist
 		blendFunc blend
 	}
 }
@@ -103,7 +79,7 @@ medal_defend
 {
 	nomipmaps
 	{
-		clampmap menu/medals/medal_defend.png
+		clampmap menu/medals/medal_defend
 		blendFunc blend
 	}
 }
@@ -112,147 +88,104 @@ medal_capture
 {
 	nomipmaps
 	{
-		clampmap menu/medals/medal_capture.png
+		clampmap menu/medals/medal_capture
 		blendFunc blend
 	}
 }
 
-// WEAPON ICONS
+// Weapon icons
 icons/iconw_rocket
 {
 	nomipmaps
-	{
-		map icons/iconw_rocket.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconw_grapple
 {
 	nomipmaps
-	{
-		map icons/iconw_grapple.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconw_railgun
 {
 	nomipmaps
-	{
-		map icons/iconw_railgun.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
-// HEALTH ICONS
+
+// Health icons
 icons/iconh_small
 {
 	nomipmaps
-	{
-		map icons/iconh_small.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconh_medium
 {
 	nomipmaps
-	{
-		map icons/iconh_medium.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconh_large
 {
 	nomipmaps
-	{
-		map icons/iconh_large.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconh_mega
 {
 	nomipmaps
-	{
-		map icons/iconh_mega.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
-// CTF FLAG ICONS
+
+// CTF icons
 icons/iconf_red1
 {
 	nomipmaps
-	{
-		map icons/iconf_red1.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_red2
 {
 	nomipmaps
-	{
-		map icons/iconf_red2.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_red3
 {
 	nomipmaps
-	{
-		map icons/iconf_red3.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_blu1
 {
 	nomipmaps
-	{
-		map icons/iconf_blu1.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_blu2
 {
 	nomipmaps
-	{
-		map icons/iconf_blu2.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_blu3
 {
 	nomipmaps
-	{
-		map icons/iconf_blu3.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_neutral1
 {
 	nomipmaps
-	{
-		map icons/iconf_neutral1.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 icons/iconf_neutral3
 {
 	nomipmaps
-	{
-		map icons/iconf_neutral3.png
-		blendfunc blend
-	}
+	implicitBlend -
 }
 
 // SCOREBOARD ICONS
@@ -260,7 +193,7 @@ scoreboardName
 {
 	nomipmaps
 	{
-		clampmap menu/tab/name.png
+		clampmap menu/tab/name
 		blendfunc blend
 	}
 }
@@ -269,7 +202,7 @@ scoreboardScore
 {
 	nomipmaps
 	{
-		clampmap menu/tab/score.png
+		clampmap menu/tab/score
 		blendfunc blend
 	}
 }
@@ -278,7 +211,7 @@ scoreboardTime
 {
 	nomipmaps
 	{
-		clampmap menu/tab/time.png
+		clampmap menu/tab/time
 		blendfunc blend
 	}
 }
@@ -287,47 +220,34 @@ scoreboardPing
 {
 	nomipmaps
 	{
-		clampmap menu/tab/ping.png
+		clampmap menu/tab/ping
 		blendfunc blend
 	}
 }
 
 
 // missionpack icons
-
 icons/guard
 {
 	nomipmaps
-	{
-		map icons/guard.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/doubler
 {
 	nomipmaps
-	{
-		map icons/doubler.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/ammo_regen
 {
 	nomipmaps
-	{
-		map icons/ammo_regen.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 
 icons/scout
 {
 	nomipmaps
-	{
-		map icons/scout.png
-		blendFunc blend
-	}
+	implicitBlend -
 }
 

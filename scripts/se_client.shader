@@ -5,7 +5,7 @@ clientLoading
 {
 	nomipmaps
 	{
-		map gfx/clientLoading.png
+		map gfx/clientLoading
 	}
 }
 
@@ -13,7 +13,7 @@ console
 {
 	nomipmaps
 	{
-		map gfx/misc/console01.png
+		map gfx/misc/console01
 		blendFunc blend
 		tcMod scroll -0.01 -0.005
 	}
