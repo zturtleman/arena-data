@@ -77,12 +77,3 @@ textures/common/alpha100.png
 textures/ctf2/blueteam01.png
 textures/ctf2/redteam01.png
 
-== M+ Outline Fonts ==
-The following files are Copyright (C) 2002-2012 M+ FONTS PROJECT. See M+FONTS_LICENSE.txt for license.
-
-TrueType Fonts from M+ Outline Fonts (v053)
-fonts/mplus-1c-regular.ttf
-fonts/mplus-1c-bold.ttf
-fonts/mplus-1mn-regular.ttf
-fonts/mplus-2p-black.ttf
-
