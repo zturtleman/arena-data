@@ -88,6 +88,18 @@ disconnected
 	}
 }
 
+teleportEffect
+{
+	cull none
+	{
+		map gfx/misc/teleportEffect2
+		blendFunc add
+		rgbGen entity
+		tcMod scale 1 4
+		tcMod scroll 0 2
+	}
+}
+
 markShadow
 {
 	polygonoffset
