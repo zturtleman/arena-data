@@ -238,7 +238,7 @@ gfx/2d/crosshair
 {
 	nopicmip
 	{
-		map gfx/2d/crosshair
+		map gfx/2d/crosshaira
 		blendFunc blend
 		rgbGen vertex
 	}
@@ -269,6 +269,67 @@ gfx/2d/crosshaird
 	nopicmip
 	{
 		map gfx/2d/crosshaird
+		blendFunc blend
+		rgbGen vertex
+	}
+}
+
+// FIXME: missing images for these crosshairs. Reuse images for now at least.
+gfx/2d/crosshaire
+{
+	nopicmip
+	{
+		map gfx/2d/crosshaira
+		blendFunc blend
+		rgbGen vertex
+	}
+}
+
+gfx/2d/crosshairf
+{
+	nopicmip
+	{
+		map gfx/2d/crosshairb
+		blendFunc blend
+		rgbGen vertex
+	}
+}
+
+gfx/2d/crosshairg
+{
+	nopicmip
+	{
+		map gfx/2d/crosshairc
+		blendFunc blend
+		rgbGen vertex
+	}
+}
+
+gfx/2d/crosshairh
+{
+	nopicmip
+	{
+		map gfx/2d/crosshaird
+		blendFunc blend
+		rgbGen vertex
+	}
+}
+
+gfx/2d/crosshairi
+{
+	nopicmip
+	{
+		map gfx/2d/crosshaira
+		blendFunc blend
+		rgbGen vertex
+	}
+}
+
+gfx/2d/crosshairj
+{
+	nopicmip
+	{
+		map gfx/2d/crosshairb
 		blendFunc blend
 		rgbGen vertex
 	}
