@@ -8,6 +8,7 @@ The data files that have source files are included in the _sourcefiles directory
 The following use M+ Outline Fonts, for font license see M+FONTS_LICENSE.txt.
 
 Images that use M+ 1c Bold:
+gfx/2d/bigchars.png
 gfx/2d/numbers/eight_32b.png
 gfx/2d/numbers/five_32b.png
 gfx/2d/numbers/four_32b.png
@@ -31,6 +32,11 @@ menu/art/cancel_0.png
 menu/art/cancel_1.png
 menu/art/delete_0.png
 menu/art/delete_1.png
+menu/art/fight_0.png
+menu/art/fight_1.png
+menu/art/font1_prop.png
+menu/art/font1_prop_glo.png
+menu/art/font2_prop.png
 menu/art/join_0.png
 menu/art/join_1.png
 menu/art/load_0.png
