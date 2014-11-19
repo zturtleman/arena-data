@@ -419,6 +419,21 @@ plasmaExplosion
 	}
 }
 
+// based on plasmaExplosion
+railExplosion
+{
+	cull none
+	{
+		clampmap models/weaphits/plasmaboom
+		blendfunc add
+
+		tcMod stretch triangle .6 0.1 0 8
+		tcmod rotate 999
+		//rgbGen wave inversesawtooth 0 1 0 1.5
+		rgbGen entity
+	}
+}
+
 bulletExplosion
 {
 	cull none
@@ -433,6 +448,8 @@ bulletExplosion
 		blendfunc add
 	}
 }
+
+//explode1 (explode11 to explode122) See id software's quake3 pak7.pk3 ... and cg_oldRocket 0
 
 rocketExplosion
 {
@@ -449,7 +466,39 @@ rocketExplosion
 	}
 }
 
-//explode1 (explode11 to explode122) See id software's quake3 pak7.pk3 ... and cg_oldRocket 0
+// copy of rocketExplosion for now
+grenadeExplosion
+{
+	cull none
+	{
+		animmap 8 models/weaphits/rlboom/rlboom_1 models/weaphits/rlboom/rlboom_2 models/weaphits/rlboom/rlboom_3 models/weaphits/rlboom/rlboom_4 models/weaphits/rlboom/rlboom_5 models/weaphits/rlboom/rlboom_6 models/weaphits/rlboom/rlboom_7 models/weaphits/rlboom/rlboom_8
+		rgbGen wave inversesawtooth 0 1 0 8
+		blendfunc add
+	}
+	{
+		animmap 8 models/weaphits/rlboom/rlboom_2 models/weaphits/rlboom/rlboom_3 models/weaphits/rlboom/rlboom_4 models/weaphits/rlboom/rlboom_5 models/weaphits/rlboom/rlboom_6 models/weaphits/rlboom/rlboom_7 models/weaphits/rlboom/rlboom_8 gfx/colors/black
+		rgbGen wave sawtooth 0 1 0 8
+		blendfunc add
+	}
+}
+
+// copy of rocketExplosion for now
+bfgExplosion
+{
+	cull none
+	{
+		animmap 8 models/weaphits/rlboom/rlboom_1 models/weaphits/rlboom/rlboom_2 models/weaphits/rlboom/rlboom_3 models/weaphits/rlboom/rlboom_4 models/weaphits/rlboom/rlboom_5 models/weaphits/rlboom/rlboom_6 models/weaphits/rlboom/rlboom_7 models/weaphits/rlboom/rlboom_8
+		rgbGen wave inversesawtooth 0 1 0 8
+		blendfunc add
+	}
+	{
+		animmap 8 models/weaphits/rlboom/rlboom_2 models/weaphits/rlboom/rlboom_3 models/weaphits/rlboom/rlboom_4 models/weaphits/rlboom/rlboom_5 models/weaphits/rlboom/rlboom_6 models/weaphits/rlboom/rlboom_7 models/weaphits/rlboom/rlboom_8 gfx/colors/black
+		rgbGen wave sawtooth 0 1 0 8
+		blendfunc add
+	}
+}
+
+
 
 //
 // blood shaders
