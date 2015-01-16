@@ -25,7 +25,7 @@ gfx/misc/raindrop
 	implicitBlend -
 }
 
-// Used by Plasm trail (when cg_oldPlasm is 0) and Rail trail (when cg_oldRail is 0)
+// Used by Plasma trail (when cg_oldPlasm is 0) and Rail trail (when cg_oldRail is 0)
 railDisc
 {
 	cull none
@@ -367,7 +367,7 @@ gfx/damage/bullet_mrk
 	}
 }
 
-// Used by rocket launcher and homing-rocket launcher
+// Used by rocket launcher and grenade launcher
 gfx/damage/burn_med_mrk
 {
 	polygonoffset
@@ -389,7 +389,7 @@ gfx/damage/hole_lg_mrk
 	}
 }
 
-// Used by the plasma missile
+// Used by the plasma and railgun impact marks
 gfx/damage/plasma_mrk
 {
 	polygonoffset
@@ -413,8 +413,8 @@ plasmaExplosion
 		clampmap models/weaphits/plasmaboom
 		blendfunc add
 
-		tcMod stretch triangle .6 0.1 0 8
-		tcmod rotate 999
+		tcMod stretch inversesawtooth 0 1 0 1.5
+		tcMod rotate 999
 		rgbGen wave inversesawtooth 0 1 0 1.5
 	}
 }
@@ -427,9 +427,8 @@ railExplosion
 		clampmap models/weaphits/plasmaboom
 		blendfunc add
 
-		tcMod stretch triangle .6 0.1 0 8
-		tcmod rotate 999
-		//rgbGen wave inversesawtooth 0 1 0 1.5
+		tcMod stretch inversesawtooth 0 1 0 1.5
+		tcMod rotate 999
 		rgbGen entity
 	}
 }
