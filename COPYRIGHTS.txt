@@ -1,7 +1,7 @@
 Copyrights and licenses for data files.
 
 == ZTM ==
-All of the data files, unless otherwise noted, are copyright (c) 2009-2013 Zack Middleton and are licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC-BY-SA-3.0).
+All of the data files, unless otherwise noted, are copyright (c) 2009-2015 Zack Middleton and are licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC-BY-SA-3.0).
 
 The data files that have source files are included in the _sourcefiles directory.
 
