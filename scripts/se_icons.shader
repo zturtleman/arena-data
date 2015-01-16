@@ -94,7 +94,13 @@ medal_capture
 }
 
 // Weapon icons
-icons/iconw_rocket
+icons/iconw_bfg
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_chaingun
 {
 	nomipmaps
 	implicitBlend -
@@ -106,7 +112,129 @@ icons/iconw_grapple
 	implicitBlend -
 }
 
+icons/iconw_grenade
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_gauntlet
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_lightning
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_machinegun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_nailgun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_plasma
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_proxlauncher
+{
+	nomipmaps
+	implicitBlend -
+}
+
 icons/iconw_railgun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_rocket
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconw_shotgun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+
+// Ammo Icons
+icons/icona_bfg
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_chaingun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_grenade
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_lightning
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_machinegun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_nailgun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_plasma
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_proxlauncher
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_railgun
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_rocket
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/icona_shotgun
 {
 	nomipmaps
 	implicitBlend -
@@ -187,6 +315,7 @@ icons/iconf_neutral3
 	nomipmaps
 	implicitBlend -
 }
+
 
 // SCOREBOARD ICONS
 scoreboardName
