@@ -52,23 +52,50 @@ railCore
 	}
 }
 
-// Lightning trail from Q3's pak6.pk3
+// Lightning trail
 lightningBoltNew
 {
 	cull none
+	nomipmap
+	// in-sync with crackle spikes
 	{
 		map gfx/misc/lightning3new
 		blendFunc add
-		rgbgen wave sin 1 0.5 0 7.1
-		tcmod scale  2 1
-		tcMod scroll -5 0
+		rgbGen wave sin 0.5 0.1 0 0.7
+		tcMod scroll 4 0
 	}
+	// in-sync with crackle core
 	{
 		map gfx/misc/lightning3new
 		blendFunc add
-		rgbgen wave sin 1 0.8 0 8.1
-		tcmod scale  -1.3 -1
-		tcMod scroll -7.2 0
+		rgbGen wave sin 0.6 0.3 0.5 0.7
+		//tcMod scale -2 -1
+		//tcMod offset 0.5 0	// engine does not support tcMod offset (yet) use transform instead
+		tcMod transform -2 0 0 -1 0.5 0
+		tcMod scroll -8 0
+	}
+}
+
+// lightning impact model crackle spikes shader
+models/weaphits/crackle
+{
+	cull none
+	nomipmap
+	{
+		map models/weaphits/crackle
+		blendfunc add
+		rgbGen wave sin 0.35 0.1 0 0.7
+	}
+}
+
+// lightning impact model crackle core shader
+models/weaphits/cracklecore
+{
+	nomipmap
+	{
+		map models/weaphits/crackle
+		blendfunc add
+		rgbGen wave sin 0.3 0.3 0.5 0.7
 	}
 }
 
