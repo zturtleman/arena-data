@@ -1,23 +1,4 @@
-// Shaders used by the client
-
-// Drawn by the client while the engine is starting up.
-clientLoading
-{
-	nomipmaps
-	{
-		map gfx/clientLoading
-	}
-}
-
-console
-{
-	nomipmaps
-	{
-		map gfx/misc/console01
-		blendFunc blend
-		tcMod scroll -0.01 -0.005
-	}
-}
+// Shaders used by the client (engine) directly
 
 white
 {

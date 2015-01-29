@@ -1,5 +1,15 @@
 // gfx and effects
 
+console
+{
+	nomipmaps
+	{
+		map gfx/misc/console01
+		blendFunc blend
+		tcMod scroll -0.01 -0.005
+	}
+}
+
 // mint-arena atmosphere effect shaders
 gfx/misc/snow
 {
