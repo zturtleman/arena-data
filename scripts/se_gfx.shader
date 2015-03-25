@@ -66,7 +66,7 @@ railCore
 lightningBoltNew
 {
 	cull none
-	nomipmap
+	nomipmaps
 	// in-sync with crackle spikes
 	{
 		map gfx/misc/lightning3new
@@ -90,7 +90,7 @@ lightningBoltNew
 models/weaphits/crackle
 {
 	cull none
-	nomipmap
+	nomipmaps
 	{
 		map models/weaphits/crackle
 		blendfunc add
@@ -101,7 +101,7 @@ models/weaphits/crackle
 // lightning impact model crackle core shader
 models/weaphits/cracklecore
 {
-	nomipmap
+	nomipmaps
 	{
 		map models/weaphits/crackle
 		blendfunc add
