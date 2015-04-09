@@ -267,6 +267,26 @@ icons/iconh_mega
 }
 
 
+// Armor icons
+icons/iconr_shard
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconr_yellow
+{
+	nomipmaps
+	implicitBlend -
+}
+
+icons/iconr_red
+{
+	nomipmaps
+	implicitBlend -
+}
+
+
 // CTF icons
 icons/iconf_red1
 {
