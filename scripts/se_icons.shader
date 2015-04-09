@@ -242,19 +242,19 @@ icons/icona_shotgun
 
 
 // Health icons
-icons/iconh_small
+icons/iconh_green
 {
 	nomipmaps
 	implicitBlend -
 }
 
-icons/iconh_medium
+icons/iconh_yellow
 {
 	nomipmaps
 	implicitBlend -
 }
 
-icons/iconh_large
+icons/iconh_red
 {
 	nomipmaps
 	implicitBlend -
