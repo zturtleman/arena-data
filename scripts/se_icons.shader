@@ -13,7 +13,7 @@ icons/teleporter
 	implicitBlend -
 }
 
-icons/invul
+icons/invulnerability
 {
 	nomipmaps
 	implicitBlend -
