@@ -9,6 +9,7 @@ The following use M+ Outline Fonts, for font license see M+FONTS_LICENSE.txt.
 
 Images that use M+ 1c Bold:
 gfx/2d/bigchars.png
+gfx/2d/net.png
 gfx/2d/numbers/eight_32b.png
 gfx/2d/numbers/five_32b.png
 gfx/2d/numbers/four_32b.png
