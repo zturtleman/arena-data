@@ -29,8 +29,6 @@ menu/art/accept_0.png
 menu/art/accept_1.png
 menu/art/back_0.png
 menu/art/back_1.png
-menu/art/cancel_0.png
-menu/art/cancel_1.png
 menu/art/delete_0.png
 menu/art/delete_1.png
 menu/art/fight_0.png
@@ -38,16 +36,12 @@ menu/art/fight_1.png
 menu/art/font1_prop.png
 menu/art/font1_prop_glo.png
 menu/art/font2_prop.png
-menu/art/join_0.png
-menu/art/join_1.png
 menu/art/load_0.png
 menu/art/load_1.png
 menu/art/menu_0.png
 menu/art/menu_1.png
 menu/art/model_0.png
 menu/art/model_1.png
-menu/art/new_0.png
-menu/art/new_1.png
 menu/art/next_0.png
 menu/art/next_1.png
 menu/art/play_0.png
