@@ -105,6 +105,54 @@ menu/art/accept_1
 	}
 }
 
+menu/art/arrows_horz_left
+{
+	nomipmaps
+
+	{
+		map menu/art/arrows_horz_left
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/arrows_horz_right
+{
+	nomipmaps
+
+	{
+		map menu/art/arrows_horz_right
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/arrows_vert_bot
+{
+	nomipmaps
+
+	{
+		map menu/art/arrows_vert_bot
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/arrows_vert_top
+{
+	nomipmaps
+
+	{
+		map menu/art/arrows_vert_top
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
 menu/art/back_1
 {
 	nomipmaps
@@ -153,6 +201,30 @@ menu/art/fight_1
 	}
 }
 
+menu/art/gs_arrows_l
+{
+	nomipmaps
+
+	{
+		map menu/art/gs_arrows_l
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/gs_arrows_r
+{
+	nomipmaps
+
+	{
+		map menu/art/gs_arrows_r
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
 menu/art/load_1
 {
 	nomipmaps
@@ -183,6 +255,18 @@ menu/art/model_1
 
 	{
 		map menu/art/model_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/narrow_1
+{
+	nomipmaps
+
+	{
+		map menu/art/narrow_1
 		rgbGen identity
 		alphaGen identity
 		blendFunc blend
