@@ -89,3 +89,199 @@ menu/art/skill5
 	implicitBlend -
 }
 
+
+//
+// Disable menu button pulsing
+//
+menu/art/accept_1
+{
+	nomipmaps
+
+	{
+		map menu/art/accept_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/back_1
+{
+	nomipmaps
+
+	{
+		map menu/art/back_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/create_1
+{
+	nomipmaps
+
+	{
+		map menu/art/create_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/delete_1
+{
+	nomipmaps
+
+	{
+		map menu/art/delete_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/fight_1
+{
+	nomipmaps
+
+	{
+		map menu/art/fight_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/load_1
+{
+	nomipmaps
+
+	{
+		map menu/art/load_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/menu_1
+{
+	nomipmaps
+
+	{
+		map menu/art/menu_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/model_1
+{
+	nomipmaps
+
+	{
+		map menu/art/model_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/next_1
+{
+	nomipmaps
+
+	{
+		map menu/art/next_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/play_1
+{
+	nomipmaps
+
+	{
+		map menu/art/play_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/refresh_1
+{
+	nomipmaps
+
+	{
+		map menu/art/refresh_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/replay_1
+{
+	nomipmaps
+
+	{
+		map menu/art/replay_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/reset_1
+{
+	nomipmaps
+
+	{
+		map menu/art/reset_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/save_1
+{
+	nomipmaps
+
+	{
+		map menu/art/save_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/skirmish_1
+{
+	nomipmaps
+
+	{
+		map menu/art/skirmish_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
+menu/art/specify_1
+{
+	nomipmaps
+
+	{
+		map menu/art/specify_1
+		rgbGen identity
+		alphaGen identity
+		blendFunc blend
+	}
+}
+
