@@ -289,7 +289,8 @@ gfx/2d/crosshair
 	{
 		map gfx/2d/crosshaira
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -299,7 +300,8 @@ gfx/2d/crosshairb
 	{
 		map gfx/2d/crosshairb
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -309,7 +311,8 @@ gfx/2d/crosshairc
 	{
 		map gfx/2d/crosshairc
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -319,7 +322,8 @@ gfx/2d/crosshaird
 	{
 		map gfx/2d/crosshaird
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -330,7 +334,8 @@ gfx/2d/crosshaire
 	{
 		map gfx/2d/crosshaira
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -340,7 +345,8 @@ gfx/2d/crosshairf
 	{
 		map gfx/2d/crosshairb
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -350,7 +356,8 @@ gfx/2d/crosshairg
 	{
 		map gfx/2d/crosshairc
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -360,7 +367,8 @@ gfx/2d/crosshairh
 	{
 		map gfx/2d/crosshaird
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -370,7 +378,8 @@ gfx/2d/crosshairi
 	{
 		map gfx/2d/crosshaira
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
@@ -380,7 +389,8 @@ gfx/2d/crosshairj
 	{
 		map gfx/2d/crosshairb
 		blendFunc blend
-		rgbGen vertex
+		rgbGen exactVertex
+		alphaGen vertex
 	}
 }
 
