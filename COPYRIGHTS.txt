@@ -78,3 +78,16 @@ textures/common/alpha100.png
 textures/ctf2/blueteam01.png
 textures/ctf2/redteam01.png
 
+== id Software ==
+The following are based on files from Quake III Arena source code and are copyright (C) 1999-2005 Id Software, Inc. and are licensed under the GNU General Public License; either version 2 of the License, or (at your option) any later version.
+
+botfiles/chars.h
+botfiles/inv.h
+botfiles/match.h
+botfiles/syn.h
+ui/hud.txt
+ui/hud2.txt
+ui/ingame.txt
+ui/menudef.h
+ui/menus.txt
+
