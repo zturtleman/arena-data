@@ -1,0 +1,37 @@
+// Used by missionpack scriptable ui
+
+// Bot names can be characters or aliases (or bots.txt names but game
+// prints a warning).
+// Beside the "asset" there is two images loaded based on it,
+//    "asset_metal" (metal version of asset) and "asset_name" (image of the name).
+//
+// name of team, asset, bot1, bot2, bot3, bot4, bot5
+teams
+{
+	{ "Compiler" "ui/assets/team_compiler" "Colonel" "James" "Janet" "Peter" "Alyssa" }
+	{ "Linker" "ui/assets/team_linker" "Sarge" "Alyssa" "Peter" "James" "Janet" }
+}
+
+// Player selectable characters. The character names need to be valid
+// bots in bots.txt.
+//
+// character name (display and head model), base model (torso/legs)
+//   base model male=James, female=Janet, otherwise uses text specified
+characters
+{
+	{ "James"	"male" }
+	{ "Janet"	"female" }
+	{ "Sarge"	"sarge" }
+}
+
+// Bot altnames for use in teams list. Preferred action is handled by
+// the bot ai file listed in bots.txt.
+//
+// character name, bot alias (in bots.txt), and (unused) preferred action (a - all purpose, d - defense, o - offense)
+aliases
+{
+	{ "Peter"			"James"			"a" }
+	{ "Alyssa"			"Janet"			"a" }
+	{ "Colonel"			"Sarge"			"a" }
+}
+

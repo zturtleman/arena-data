@@ -1,0 +1,39 @@
+// Used by missionpack scriptable ui
+
+// Used in "Single Player" and Start Server menus
+// name, gametype number
+gametypes
+{
+	{ "Free For All" 0 }
+	{ "Tournament" 1 }
+	{ "Team Deathmatch" 3 }
+	{ "Capture the Flag" 4 }
+	{ "One Flag CTF" 5 }
+	{ "Overload" 6 }
+	{ "Harvester" 7 }
+}
+
+// Used in Join Server menu
+// name, gametype number
+joingametypes
+{
+	{ "All" -1 }
+	{ "Free For All" 0 }
+	{ "Tournament" 1 }
+	{ "Team Deathmatch" 3 }
+	{ "Capture the Flag" 4 }
+	{ "One Flag CTF" 5 }
+	{ "Overload" 6 }
+	{ "Harvester" 7 }
+}
+
+// Single Player map list
+// mapName, mapLoadName, teamMembers, opponentName (in bots.txt), gametypenum "timetobeat" gametypenum "timetobeat" ...
+// 2 "0" is required to mark map as single player.
+maps
+{
+	{ "ZTM Team 1"       "ztmteam1"       "3" "Sarge"       2 "0" 4 "300" 5 "300" 6 "300" 7 "300" }
+
+	{ "ZTM Tourney 1"    "ztmtourney1"    "1" "Sarge"       2 "0" 1 "300" }
+}
+
