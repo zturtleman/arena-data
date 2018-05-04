@@ -7,7 +7,7 @@ sprites/balloon3
 	cull none
 	nomipmaps
 	entityMergable
-	implicitBlend sprites/balloon3
+	implicitBlend -
 }
 
 waterBubble

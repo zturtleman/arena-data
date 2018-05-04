@@ -65,7 +65,7 @@ icons/flight
 
 
 // Medal icons / sprites
-// FIXME: why do these use clampmap?
+// FIXME: why do these use clampmap? is it because they're used as sprites? (All the icons are used as sprites...)
 medal_assist
 {
 	nomipmaps
@@ -92,6 +92,7 @@ medal_capture
 		blendFunc blend
 	}
 }
+
 
 // Weapon icons
 icons/iconw_bfg
@@ -337,7 +338,7 @@ icons/iconf_neutral3
 }
 
 
-// SCOREBOARD ICONS
+// Scoreboard headers
 scoreboardName
 {
 	nomipmaps
@@ -399,4 +400,3 @@ icons/scout
 	nomipmaps
 	implicitBlend -
 }
-

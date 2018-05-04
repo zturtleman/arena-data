@@ -327,7 +327,7 @@ gfx/2d/crosshaird
 	}
 }
 
-// FIXME: missing images for these crosshairs. Reuse images for now at least.
+// FIXME: Missing images for these crosshairs. Reuse images for now at least.
 gfx/2d/crosshaire
 {
 	nopicmip
@@ -495,8 +495,6 @@ bulletExplosion
 	}
 }
 
-//explode1 (explode11 to explode122) See id software's quake3 pak7.pk3 ... and cg_oldRocket 0
-
 rocketExplosion
 {
 	cull none
@@ -545,7 +543,6 @@ bfgExplosion
 }
 
 
-
 //
 // blood shaders
 //
@@ -561,7 +558,7 @@ bloodExplosion
 
 viewBloodBlend
 {
-	sort	nearest
+	sort nearest
 	{
 		map gfx/damage/blood_screen
 		blendFunc blend
