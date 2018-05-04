@@ -15,11 +15,17 @@ echo "Checking for non-power-of-two images in $dir"
 find "$dir" -type f -name "*.jpg" -o -name "*.tga" -o -name "*.png" | while read name; 
 do
 	# get size of image (1x1)
-	size=`identify $name | cut -f 3 -d " "`
+	# FIXME: ~ is valid in paths which may lead to strange errors if used
+	size=`identify "$name" | sed "s~$name~~" | cut -f 3 -d " "`
 
 	# split into separate width and height variables
 	width=`echo $size | sed s/x.*//`
 	height=`echo $size | cut -f 3 -d " " | cut -f 3 -d " " | sed s/.*x//`
+
+	if [ -z "$width" -o -z "$height" ]; then
+		echo "WARNING: Failed to get size for $name"
+		continue
+	fi
 
 	# find power of 2 that is more or equal to width
 	widthTarget=1
